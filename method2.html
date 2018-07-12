@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Method 2</title>
 </head>
 <body>
     <main>
-    <div id="selector">
-        <div> {{ mensaje }} <br> {{ numero }} <br> {{ booleano }} </div>
-        <div> {{ $data }} </div>
-
-    </div>
+        <button @click="sumar">{{numero}}</button>
+        <p>{{$data}}</p>
     </main>
-    <script src="vue.js"></script>
+
+    <script src="vue-method2.js"></script>
 </body>
 </html>

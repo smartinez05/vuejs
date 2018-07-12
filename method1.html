@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Boton Vue</title>
 </head>
 <body>
     <main>
-    <div id="selector">
-        <div> {{ mensaje }} <br> {{ numero }} <br> {{ booleano }} </div>
-        <div> {{ $data }} </div>
-
-    </div>
+        <p v-on:click="nuevoMensaje">{{mensaje}}</p>
+        <p>{{$data}}</p>
     </main>
-    <script src="vue.js"></script>
+    <script src="vue-method1.js"></script>
 </body>
 </html>
